@@ -23,8 +23,8 @@ function Projects() {
               isBlog={false}
               title="Martin Berestovoy Web"
               description="This is my personal website. It's a simple webpage that shows my skills and projects."
-              ghLink="the link"
-              demoLink="../../../../../public/index.html "
+              ghLink="https://github.com/MartinBerestovoy/MartinBerestovoyWeb"
+              demoLink="https://martin-berestovoy-web.vercel.app"
             />
           </Col>
 
