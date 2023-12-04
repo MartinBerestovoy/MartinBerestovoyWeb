@@ -4,10 +4,6 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-import { inject } from '@vercel/analytics';
- 
-inject();
-
 ReactDOM.render(
   <React.StrictMode>
     <App />

@@ -17,6 +17,10 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import { inject } from '@vercel/analytics';
+ 
+inject();
+
 function App() {
   const [load, upadateLoad] = useState(true);
 
