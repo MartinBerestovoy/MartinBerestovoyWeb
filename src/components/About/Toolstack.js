@@ -7,7 +7,9 @@ import {
   SiDiscord,
   SiXampp,
   SiPostman,
+  SiVercel,
 } from "react-icons/si";
+import { DiMysql } from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -23,6 +25,12 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVercel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub />

@@ -6,9 +6,14 @@ import {
   DiNodejs,
   DiPython,
   DiGit,
-  DiPrisma,
+  DiPostgresql,
 } from "react-icons/di";
-import { SiJupyter, SiFigma } from "react-icons/si";
+import {
+  SiJupyter,
+  SiFigma,
+  SiPrisma,
+  SiTypescript,
+} from "react-icons/si";
 
 function Techstack() {
   return (
@@ -17,25 +22,31 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiJupyter />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPrisma />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPrisma />
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFigma />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJupyter />
       </Col>
     </Row>
   );
