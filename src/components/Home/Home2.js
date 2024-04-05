@@ -2,10 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -18,28 +15,26 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am really into <b className="purple"> programming </b> and <b className="purple"> tech. </b>
+              I am really into <b className="purple"> programming </b> and{" "}
+              <b className="purple"> tech</b>.
               <br />
               <br />I love programming in
               <i>
-                <b className="purple"> Python. </b>
+                <b className="purple"> Python</b>.
               </i>
               <br />
               <br />
               My field of Interest's are studying new&nbsp;
               <i>
-                <b className="purple">ways to improve the world. </b>
+                <b className="purple">ways to improve the world</b>.
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing programs
-              with <b className="purple">Python</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Jupyter.
-                </b>
-              </i>
+              Whenever possible, I also apply my passion for developing WEB
+              applications, specially the <b className="purple">
+                back-end
+              </b>{" "}
+              part with <b className="purple">JavaScript</b>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -50,9 +45,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+            <p>Feel free to connect with me</p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a

@@ -11,6 +11,7 @@ function Type() {
           "Active Programmer",
           "Tech Enthusiast",
           "Python Developer",
+          "WEB Developer",
         ],
         autoStart: true,
         loop: true,
