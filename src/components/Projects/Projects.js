@@ -24,7 +24,7 @@ function Projects() {
               title="Martin Berestovoy Web"
               description="This is my personal website. It's a simple webpage that shows my skills and projects."
               ghLink="https://github.com/MartinBerestovoy/MartinBerestovoyWeb"
-              demoLink="https://martin-berestovoy-web.vercel.app"
+              demoLink="https://martinberestovoy.vercel.app"
             />
           </Col>
 
