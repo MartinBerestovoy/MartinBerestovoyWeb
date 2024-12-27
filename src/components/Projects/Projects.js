@@ -22,7 +22,7 @@ function Projects() {
               imgPath={martinBerestovoyWeb}
               isBlog={false}
               title="Martin Berestovoy Web"
-              description="This is my personal website. It's a simple webpage that shows my skills and projects."
+              description="Welcome to my personal website—a clean and straightforward space showcasing my skills, projects, and what I bring to the table."
               ghLink="https://github.com/MartinBerestovoy/MartinBerestovoyWeb"
               demoLink="https://martinberestovoy.vercel.app"
             />
@@ -33,7 +33,7 @@ function Projects() {
               imgPath={storyTime}
               isBlog={false}
               title="StoryTime"
-              description="This is a webpage adapted to children with mental disabilities that allows them to create their own stories via pictograms. Then it creates the story and lets them save and listen to it whenever they want."
+              description="Empower children with mental disabilities to express their creativity through our inclusive platform, where they can craft personalized stories using pictograms and AI. Designed for accessibility and engagement, it allows kids to save and listen to their stories anytime, fostering self-expression, confidence, and joy in a safe, supportive space. Transform storytelling into a tool for growth and imagination today!"
               ghLink="https://github.com/martinberestovoy/StoryTime"
             />
           </Col>
