@@ -25,7 +25,7 @@ function Projects() {
               isBlog={false}
               title="Automa"
               description="Automate your business effortlessly with Automa — the no-code platform that connects your apps, executes repetitive tasks, and keeps your operations running while you sleep. Designed for entrepreneurs and teams who value time and efficiency, Automa streamlines workflows, boosts productivity, and ensures every process runs seamlessly in the background. Focus on growth while we handle the routine. Turn automation into your competitive edge today!"
-              ghLink="https://automa-ag.vercel.app/"
+              demoLink="https://automa-ag.vercel.app/"
             />
           </Col>
 
