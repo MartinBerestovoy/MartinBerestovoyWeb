@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import martinBerestovoyWeb from "../../Assets/Projects/martinBerestovoyWeb.png";
 import storyTime from "../../Assets/Projects/storyTime.png";
+import automa from "../../Assets/Projects/automa.png";
 
 function Projects() {
   return (
