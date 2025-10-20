@@ -17,14 +17,14 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={martinBerestovoyWeb}
+              imgPath={automa}
               isBlog={false}
-              title="Martin Berestovoy Web"
-              description="Welcome to my personal website—a clean and straightforward space showcasing my skills, projects, and what I bring to the table."
-              ghLink="https://github.com/MartinBerestovoy/MartinBerestovoyWeb"
-              demoLink="https://martinberestovoy.vercel.app"
+              title="Automa"
+              description="Automate your business effortlessly with Automa — the no-code platform that connects your apps, executes repetitive tasks, and keeps your operations running while you sleep. Designed for entrepreneurs and teams who value time and efficiency, Automa streamlines workflows, boosts productivity, and ensures every process runs seamlessly in the background. Focus on growth while we handle the routine. Turn automation into your competitive edge today!"
+              ghLink="https://automa-ag.vercel.app/"
             />
           </Col>
 
@@ -37,6 +37,18 @@ function Projects() {
               ghLink="https://github.com/martinberestovoy/StoryTime"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={martinBerestovoyWeb}
+              isBlog={false}
+              title="Martin Berestovoy Web"
+              description="Welcome to my personal website—a clean and straightforward space showcasing my skills, projects, and what I bring to the table."
+              ghLink="https://github.com/MartinBerestovoy/MartinBerestovoyWeb"
+              demoLink="https://martinberestovoy.vercel.app"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
