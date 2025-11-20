@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Martin Berestovoy </span>
             from <span className="purple"> Buenos Aires, Argentina.</span>
             <br />
-            I am currently in my last year of high school.
+            I am currently studying a degree in Digital Business.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
