@@ -1,0 +1,220 @@
+body {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Focus visible for accessibility */
+:focus-visible {
+  outline: 3px solid #1bde7a;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Sticky Header */
+.nav-scrolled {
+  background-color: rgba(246, 248, 247, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+  border-bottom: 1px solid rgba(27, 222, 122, 0.15);
+}
+
+.dark .nav-scrolled {
+  background-color: rgba(17, 33, 25, 0.92);
+  border-bottom: 1px solid rgba(27, 222, 122, 0.2);
+}
+
+/* Nav & Footer Link Underline Animation */
+.animated-link {
+  position: relative;
+  text-decoration: none;
+}
+
+.animated-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 50%;
+  background-color: #1bde7a;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateX(-50%);
+}
+
+.animated-link:hover::after {
+  width: 100%;
+}
+
+/* Primary CTA Button */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #1bde7a;
+  color: #112119;
+  padding: 0.875rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 900;
+  font-size: 1.0625rem;
+  line-height: 1.25;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 8px 20px -4px rgba(27, 222, 122, 0.35);
+  border: 2px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  background-color: #34d399;
+  transform: translateY(-2px);
+  box-shadow: 0 16px 30px -6px rgba(27, 222, 122, 0.45);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+/* Secondary CTA Button */
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: transparent;
+  color: #1bde7a;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid #1bde7a;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus-visible {
+  background-color: rgba(27, 222, 122, 0.08);
+  transform: translateY(-1px);
+}
+
+/* FAQ accordion */
+.faq-item summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 1.25rem 1rem;
+  font-weight: 700;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  transition: color 0.2s;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary .faq-icon {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: rgba(27, 222, 122, 0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  transition: transform 0.25s, background-color 0.2s;
+}
+
+.faq-item[open] > summary .faq-icon {
+  transform: rotate(45deg);
+  background-color: rgba(27, 222, 122, 0.3);
+}
+
+.faq-item summary:hover {
+  color: #1bde7a;
+}
+
+.faq-body {
+  padding: 0 1rem 1.25rem;
+  color: #475569;
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+.dark .faq-body {
+  color: #94a3b8;
+}
+
+/* Floating WhatsApp button */
+.float-wa {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 50;
+  background-color: #1bde7a;
+  color: #112119;
+  border-radius: 9999px;
+  box-shadow: 0 8px 24px rgba(27, 222, 122, 0.45);
+  transition: transform 0.25s, box-shadow 0.25s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.875rem 1.25rem 0.875rem 1rem;
+  font-weight: 900;
+  font-size: 0.875rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.float-wa:hover,
+.float-wa:focus-visible {
+  transform: scale(1.05);
+  box-shadow: 0 12px 32px rgba(27, 222, 122, 0.55);
+}
+
+/* On very small screens, collapse to icon only */
+@media (max-width: 400px) {
+  .float-wa-label {
+    display: none;
+  }
+
+  .float-wa {
+    padding: 1rem;
+  }
+}
+
+/* Section spacing helper */
+section {
+  position: relative;
+}
+
+/* Trust strip */
+.trust-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.trust-pill {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #1bde7a;
+}
