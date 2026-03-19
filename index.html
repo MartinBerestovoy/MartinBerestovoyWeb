@@ -14,7 +14,7 @@
     content="Conseguí más consultas con una página web simple, rápida y optimizada para celular. Entrega en 7 días. Demo gratis." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://martinberestovoy.vercel.app/" />
-  <meta property="og:image" content="TODO_OWNER_INPUT" />
+  <meta property="og:image" content="https://api.microlink.io/?url=https://martinberestovoyweb.vercel.app&screenshot=true&meta=false&embed=screenshot.url" />
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Páginas web para negocios locales | Martin Berestovoy" />
@@ -25,33 +25,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
     rel="stylesheet" />
-  <script id="tailwind-config">
-    tailwind.config = {
-      darkMode: "class",
-      theme: {
-        extend: {
-          colors: {
-            "primary": "#1bde7a",
-            "background-light": "#f6f8f7",
-            "background-dark": "#112119",
-          },
-          fontFamily: {
-            "display": ["Inter", "sans-serif"]
-          },
-          borderRadius: {
-            "DEFAULT": "0.125rem",
-            "lg": "0.25rem",
-            "xl": "0.5rem",
-            "full": "0.75rem"
-          },
-          transitionTimingFunction: {
-            'smooth-ease': 'cubic-bezier(0.4, 0, 0.2, 1)'
-          }
-        },
-      },
-    }
-  </script>
-  <link rel="stylesheet" href="styles.css" />
+  <script src="js/tailwind.config.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 antialiased font-display">
@@ -147,15 +122,22 @@
                     </div>
                   </div>
                   <div class="bg-[#ECE5DD] px-3 py-4 flex flex-col gap-2.5 min-h-[200px]">
-                    <div class="bg-white rounded-2xl rounded-tl-none px-3 py-2 shadow-sm max-w-[85%]">
+                    <div class="bg-[#DCF8C6] rounded-2xl rounded-tr-none px-3 py-2 shadow-sm max-w-[85%] self-end">
                       <p class="text-slate-800 text-xs leading-relaxed">Hola Martin, quiero una demo para mi
                         negocio 👋</p>
                       <p class="text-slate-400 text-[10px] text-right mt-1">12:30</p>
                     </div>
                     <div class="bg-[#DCF8C6] rounded-2xl rounded-tr-none px-3 py-2 shadow-sm max-w-[85%] self-end">
-                      <p class="text-slate-800 text-xs leading-relaxed">¡Hola! Con gusto. Contame de tu negocio y
-                        te preparo algo. 🚀</p>
-                      <p class="text-slate-400 text-[10px] text-right mt-1">12:31 ✓✓</p>
+                      <p class="text-slate-800 text-xs leading-relaxed">Que necesito para obtenerla hoy?? 🤔</p>
+                      <p class="text-slate-400 text-[10px] text-right mt-1">12:31</p>
+                    </div>
+                    <div class="bg-white rounded-2xl rounded-tl-none px-3 py-2 shadow-sm max-w-[85%]">
+                      <p class="text-slate-800 text-xs leading-relaxed">¡Hola! Con gusto se puede hacer algo para hoy.</p>
+                      <p class="text-slate-400 text-[10px] text-right mt-1">12:35</p>
+                    </div>
+                    <div class="bg-white rounded-2xl rounded-tl-none px-3 py-2 shadow-sm max-w-[85%]">
+                      <p class="text-slate-800 text-xs leading-relaxed">Contame de tu negocio y te la voy preparando. 🚀</p>
+                      <p class="text-slate-400 text-[10px] text-right mt-1">12:35</p>
                     </div>
                   </div>
                 </div>
@@ -316,25 +298,24 @@
           <p class="text-sm font-black uppercase tracking-widest text-primary text-center mb-3">Casos reales</p>
           <h2 class="text-3xl sm:text-4xl font-black text-center mb-4 leading-tight">Páginas que convierten</h2>
           <p class="text-slate-500 dark:text-slate-400 text-center max-w-xl mx-auto mb-12">
-            No son mockups. Son páginas reales que ya están en funcionamiento.
+            No son pruebas. Son páginas reales que ya están en funcionamiento.
           </p>
 
           <div class="grid sm:grid-cols-3 gap-6">
             <!-- Caso 1: Plomero -->
             <article
               class="bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-sm border border-slate-100 dark:border-slate-700 flex flex-col">
-              <div class="aspect-[4/3] bg-slate-100 dark:bg-slate-700 overflow-hidden">
+              <div class="aspect-[16/9] overflow-hidden">
                 <img
                   src="https://api.microlink.io/?url=https://plomero.vercel.app&screenshot=true&meta=false&embed=screenshot.url"
                   alt="Captura de página web para plomero — diseño limpio con contacto WhatsApp"
                   class="w-full h-full object-cover object-top" loading="lazy" />
               </div>
               <div class="p-5 flex flex-col flex-1 gap-3">
-                <p class="text-xs font-black uppercase tracking-widest text-primary">Plomero de urgencias</p>
-                <h3 class="font-black text-base leading-snug">Sin página, todo pasaba por Instagram</h3>
+                <p class="text-xs font-black uppercase tracking-widest text-primary">Plomero Servicios</p>
+                <h3 class="font-black text-base leading-snug">Plomero de urgencias en CABA</h3>
                 <p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed flex-1">
-                  Página simple con servicios, zona de cobertura y botón de WhatsApp directo. Los clientes ahora
-                  llegan por Google.
+                  Página simple con servicios, zona de cobertura y botón de WhatsApp directo. Los clientes ahora llegan por Maps.
                 </p>
                 <a href="https://plomero.vercel.app" target="_blank" rel="noopener"
                   class="text-sm font-bold text-primary underline underline-offset-2 hover:no-underline">
@@ -342,34 +323,46 @@
                 </a>
               </div>
             </article>
-            <!-- Caso 2: TODO_OWNER_INPUT -->
+            <!-- Caso 2: Vapporize -->
             <article
               class="bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-sm border border-slate-100 dark:border-slate-700 flex flex-col">
-              <div
-                class="aspect-[4/3] bg-gradient-to-br from-slate-200 to-slate-300 dark:from-slate-700 dark:to-slate-600 flex items-center justify-center">
-                <span class="text-slate-400 dark:text-slate-500 text-sm font-bold">TODO_OWNER_INPUT</span>
+              <div class="aspect-[16/9] overflow-hidden">
+                <img
+                  src="https://api.microlink.io/?url=https://vaporize-ar.vercel.app&screenshot=true&meta=false&embed=screenshot.url"
+                  alt="Captura de página web para venta de vaporizadores — diseño limpio con contacto WhatsApp"
+                  class="w-full h-full object-cover object-top" loading="lazy" />
               </div>
               <div class="p-5 flex flex-col flex-1 gap-3">
-                <p class="text-xs font-black uppercase tracking-widest text-primary">TODO_OWNER_INPUT</p>
-                <h3 class="font-black text-base leading-snug">TODO_OWNER_INPUT</h3>
+                <p class="text-xs font-black uppercase tracking-widest text-primary">Vaporize Ar</p>
+                <h3 class="font-black text-base leading-snug">Venta de vaporizadores</h3>
                 <p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed flex-1">
-                  TODO_OWNER_INPUT — agregá el segundo caso real de cliente.
+                  Página con catálogo de productos, formas de entrega, promos y contacto directo. Los clientes ahora llegan por Google e Instagram.
                 </p>
+                <a href="https://vaporizear.vercel.app" target="_blank" rel="noopener"
+                  class="text-sm font-bold text-primary underline underline-offset-2 hover:no-underline">
+                  Ver página →
+                </a>
               </div>
             </article>
-            <!-- Caso 3: TODO_OWNER_INPUT -->
+            <!-- Caso 3: Automa -->
             <article
               class="bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-sm border border-slate-100 dark:border-slate-700 flex flex-col">
-              <div
-                class="aspect-[4/3] bg-gradient-to-br from-slate-200 to-slate-300 dark:from-slate-700 dark:to-slate-600 flex items-center justify-center">
-                <span class="text-slate-400 dark:text-slate-500 text-sm font-bold">TODO_OWNER_INPUT</span>
+              <div class="aspect-[16/9] overflow-hidden">
+                <img
+                  src="https://api.microlink.io/?url=https://automa-ag.vercel.app&screenshot=true&meta=false&embed=screenshot.url"
+                  alt="Captura de página web para servicio de automatizaciones — diseño limpio con contacto WhatsApp"
+                  class="w-full h-full object-cover object-top" loading="lazy" />
               </div>
               <div class="p-5 flex flex-col flex-1 gap-3">
-                <p class="text-xs font-black uppercase tracking-widest text-primary">TODO_OWNER_INPUT</p>
-                <h3 class="font-black text-base leading-snug">TODO_OWNER_INPUT</h3>
+                <p class="text-xs font-black uppercase tracking-widest text-primary">Automa AG</p>
+                <h3 class="font-black text-base leading-snug">Automatizaciones para negocios</h3>
                 <p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed flex-1">
-                  TODO_OWNER_INPUT — agregá el tercer caso real de cliente.
+                  Página con soluciones de automatización para mejorar la eficiencia de los negocios. Los clientes ahora optimizan sus procesos.
                 </p>
+                <a href="https://automa-ag.vercel.app" target="_blank" rel="noopener"
+                  class="text-sm font-bold text-primary underline underline-offset-2 hover:no-underline">
+                  Ver página →
+                </a>
               </div>
             </article>
           </div>
@@ -434,13 +427,15 @@
             <div class="flex justify-center gap-1 mb-6" aria-label="5 estrellas">
               <span class="text-yellow-400 text-xl" aria-hidden="true">★★★★★</span>
             </div>
-            <blockquote class="text-xl lg:text-2xl font-black leading-snug text-slate-800 dark:text-slate-100 mb-6">
-              "Antes no aparecía en ningún lado. Ahora me llaman por la página."
+            <blockquote class="text-base lg:text-lg font-black leading-snug text-slate-800 dark:text-slate-100 mb-6">
+              La atencion desde el primer contacto fue excelente. Fue atento, resolutivo y se involucró de lleno al proyecto desde el primer momento.<br>
+              El trabajo se terminó en un plazo mucho menor al esperado y el resultado fue excelente.<br>
+              Cabe resaltar la asistencia y acompañamiento una vez terminado el proyecto.
             </blockquote>
             <figcaption class="flex flex-col items-center gap-1">
-              <div class="font-black text-base">Jorge — <a href="https://plomero.vercel.app" target="_blank"
-                  rel="noopener" class="text-primary hover:underline">plomero.vercel.app</a></div>
-              <p class="text-slate-500 dark:text-slate-400 text-sm">TODO_OWNER_INPUT — ciudad / rubro completo</p>
+              <div class="font-black text-base">Marco — <a href="https://vaporizear.vercel.app" target="_blank"
+                  rel="noopener" class="text-primary hover:underline">vaporizear.vercel.app</a></div>
+              <p class="text-slate-500 dark:text-slate-400 text-sm">Buenos Aires - Venta digital de productos.</p>
             </figcaption>
           </figure>
         </div>
@@ -507,8 +502,7 @@
                 ¿Me ayudás con el dominio y la publicación?
                 <span class="faq-icon" aria-hidden="true">+</span>
               </summary>
-              <div class="faq-body">TODO_OWNER_INPUT — indicá si incluís o no ayuda con dominio propio (.com.ar,
-                etc.) y la publicación en el hosting.</div>
+              <div class="faq-body">Si! El servicio provee ayuda con la adquisición del dominio y la publicación en el hosting.</div>
             </details>
 
             <details
@@ -518,8 +512,7 @@
                 ¿Qué pasa después de la entrega?
                 <span class="faq-icon" aria-hidden="true">+</span>
               </summary>
-              <div class="faq-body">TODO_OWNER_INPUT — aclará si ofrecés soporte post-entrega, tiempo de correción
-                gratis, o si el cliente queda a su cargo.</div>
+              <div class="faq-body">Despues de la entrega inicia un período de soporte post-entrega, durante el cual se realizan correcciones gratuitas. Luego de este período, el cliente tiene 3 correcciones adicionales a su cargo.</div>
             </details>
 
             <details
@@ -531,17 +524,6 @@
               </summary>
               <div class="faq-body">Sí, no es un problema. Puedo trabajar con una paleta de colores básica mientras
                 definís el logo. Los textos los armamos juntos a partir de lo que me contás de tu negocio.</div>
-            </details>
-
-            <details
-              class="faq-item bg-white dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700"
-              id="faq-8">
-              <summary>
-                ¿Cuánto cuesta?
-                <span class="faq-icon" aria-hidden="true">+</span>
-              </summary>
-              <div class="faq-body">TODO_OWNER_INPUT — indicá el precio o rango de precios del servicio. Si manejás
-                distintas opciones, mencionálas. La demo es gratis y sin compromiso.</div>
             </details>
 
           </div>
@@ -574,15 +556,14 @@
     </main>
 
     <!-- ===================== FOOTER ===================== -->
-    <footer class="py-10 px-5 lg:px-20 border-t border-slate-200 dark:border-slate-700/50">
+    <footer class="pt-10 pb-24 sm:py-10 px-5 lg:px-20 border-t border-slate-200 dark:border-slate-700/50">
       <div
-        class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500 dark:text-slate-400">
-        <p>© 2025 Martin Berestovoy. Hecho con foco en resultados.</p>
+        class="max-w-7xl mx-auto flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-sm text-slate-500 dark:text-slate-400">
         <nav class="flex gap-5" aria-label="Redes sociales">
-          <a href="TODO_OWNER_INPUT" target="_blank" rel="noopener"
+          <a href="https://www.instagram.com/tinchoberes/" target="_blank" rel="noopener"
             class="animated-link hover:text-primary transition-colors"
             aria-label="Instagram de Martin Berestovoy">Instagram</a>
-          <a href="TODO_OWNER_INPUT" target="_blank" rel="noopener"
+          <a href="https://www.linkedin.com/in/martin-berestovoy-0716bb23a/" target="_blank" rel="noopener"
             class="animated-link hover:text-primary transition-colors"
             aria-label="LinkedIn de Martin Berestovoy">LinkedIn</a>
         </nav>
@@ -590,7 +571,7 @@
     </footer>
   </div>
 
-  <script src="main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
